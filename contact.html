@@ -3,40 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHEHAN | Contact Me</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Jayant Rachhoya | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">SHEHAN</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">JAYANT</div>
+            <ul class="nav-links">
+               <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="skills.html">Skills</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="blog.html">My Blog</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-    <section class="page-content-section text-center-layout">
-        <div class="watermark-text center">Message</div>
-        <h2 class="section-title center">Contact Me</h2>
-        <p class="description center">Have a project idea? Drop a line to start building structural business applications.</p>
-
-        <form class="contact-form" onsubmit="event.preventDefault();">
-            <div class="form-row">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="subtitle">HELLO!</span>
+                <h1>I'm <span class="highlight">Jayant Rachhoya</span></h1>
+                <h2>Fullstack Web Developer</h2>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">HIRE ME</a>
+                    <a href="projects.html" class="btn btn-secondary">MY WORKS</a>
+                </div>
             </div>
-            <input type="text" placeholder="Subject" required>
-            <textarea rows="6" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
-        </form>
+            <div class="hero-image-box">
+                <img src="hero-image.jpg" alt="Jayant Rachhoya">
+            </div>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-image-box">
+                <img src="about-image.jpg" alt="About Me">
+            </div>
+            <div class="about-content">
+                <div class="watermark-text">About</div>
+                <h2 class="section-title">About Me</h2>
+                <p class="description">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                
+                <ul class="profile-info">
+                    <li><strong>Name:</strong> <span>Jayant Rachhoya</span></li>
+                    <li><strong>Date of birth:</strong> <span>July 31, 2006</span></li>
+                    <li><strong>Address:</strong> <span>NIT Durgapur, A Zone 713209 INDIA</span></li>
+                    <li><strong>Zip code:</strong> <span>1000</span></li>
+                    <li><strong>Email:</strong> <span>jayantrachhoya@gmail.com</span></li>
+                    <li><strong>Phone:</strong> <span>+91-8387-8176-1-0</span></li>
+                </ul>
+
+                <div class="project-count">
+                    <span class="count-number">73</span> Project complete
+                </div>
+                <a href="#" class="btn btn-primary">DOWNLOAD CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <div class="skills-container">
+            <div class="watermark-text center">Skills</div>
+            <h2 class="section-title center">My Skills</h2>
+            <p class="description center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Php</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">jQuery</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">CSS3</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">WordPress</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">SEO</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+            </div>
+        </div>
     </section>
 
 </body>
