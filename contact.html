@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEHAN | Contact Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">SHEHAN</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">My Blog</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="page-content-section text-center-layout">
+        <div class="watermark-text center">Message</div>
+        <h2 class="section-title center">Contact Me</h2>
+        <p class="description center">Have a project idea? Drop a line to start building structural business applications.</p>
+
+        <form class="contact-form" onsubmit="event.preventDefault();">
+            <div class="form-row">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+        </form>
+    </section>
+
+</body>
+</html>
